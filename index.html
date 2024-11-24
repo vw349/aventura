@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Em buscar do tesouro imaginário</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="heroi.jpg" alt="">
+            <p>Um heroi estava em busca de um vilão foragido, ele começa a procurar por qual cidade.</p>
+            <button class="btn-proximo" data-proximo="1">Campinas</button>
+            <button class="btn-proximo" data-proximo="2">Valinhos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Chegando na cidade de Campinas ele encontra o vilão</p>
+            <button class="btn-proximo" data-proximo="3">Vai para cima</button>
+            <button class="btn-proximo" data-proximo="4"> Conversar e se resolver</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Em valinhos ele não encontrou o vilão, mas encontrou animais silvestres</p>
+            <button class="btn-proximo" data-proximo="5">Matar os animais</button>
+            <button class="btn-proximo" data-proximo="6">Continuar atras do vilão</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>ele vai para cima do vilão e acerta seu golpe mais forte.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="casa.jpg" alt="imagem voltando ">
+        <p>Eles se resolvem, mas o heroi fica preoculpado do que vai acontecer agora que o vilão esta solto</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Ele não acha uma boa ideia </p>
+            <button class="btn-proximo" data-proximo="7">continuar as buscas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O vilão ainda reage </p>
+            <button class="btn-proximo" data-proximo="8">Continuar os golpes</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O vilão conseguiu escapar</p>
+            <button class="btn-proximo" data-proximo="9">ir atras dele pelo lado direito</button>
+            <button class="btn-proximo" data-proximo="10">ir atras dele pelo lado esquerdo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>continua</p>
+            <button class="btn-proximo" data-proximo="7">Seguir </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Do lado direito ele acha o vilão</p>
+            <button class="btn-proximo" data-proximo="11">Ex</button>ir para cima dele</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>O lado esquerdo não tinha nada</p>
+            <button class="btn-proximo" data-proximo="12">seguir para o lado direito </button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="fogo.jpg">
+            <p>o vilão sobrevive e ativa uma bomba que mata ele e o heroi</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>escolhendo lado certo</p>
+            <button class="btn-proximo" data-proximo="11">continua andando</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
